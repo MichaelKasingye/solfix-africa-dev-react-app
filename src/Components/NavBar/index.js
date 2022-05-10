@@ -65,15 +65,15 @@ function Navbar() {
           {burger ? (  ""
           ) : (
             <div className="nav-menu">
-              <Link to="/factorial">Home</Link>
-              <Link to="/squareroot"> services</Link>
-              <Link to="/results"> Features</Link>
+              <Link to="/">Home</Link>
+              <Link to="/"> services</Link>
+              <Link to="/"> Features</Link>
                 <a href="tel:256751297229">
                   <i className="bi bi-telephone-fill mx-1 text-danger"></i>Call
                   us
                 </a>
-                <Link to="/login">About</Link>
-                <Link to="/login">Contact</Link>
+                <Link to="/">About</Link>
+                <Link to="/">Contact</Link>
               
             </div>
           )}

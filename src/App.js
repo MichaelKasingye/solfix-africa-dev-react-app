@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Nav from "./Components/NavBar";
+import Footer from "./Components/Footer";
 
 import Tapp from "./Pages/App";
 import Home from "./Pages/Home";
@@ -13,13 +14,14 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-<Nav/>
+      <Nav />
       <Routes>
         <Route index element={<Home />} />
         <Route path="/test" element={<Tapp />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

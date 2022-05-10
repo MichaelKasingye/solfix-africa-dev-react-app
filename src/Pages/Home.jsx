@@ -1,35 +1,16 @@
 import React from "react";
+import Hero from "../Components/Hero"
+import Features from "../Components/Features"
+import AboutUs from "../Components/AboutUs";
+import Services from "../Components/Services";
 
 function Home() {
   return (
     <>
-     <h1>Home</h1>
-     <h1>Home</h1>
-
-     <h1>Home</h1>
-
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-
-     <h1>Home</h1>
-
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-     <h1>Home</h1>
-
+    <Hero/>
+    <Features/>
+<AboutUs/>
+<Services/>
      
     </>
   );
