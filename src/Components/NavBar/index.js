@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SidebarData } from "./Sidebar";
 import { IconContext } from "react-icons";
 // import { useStateValue } from "./ContextAPI/StateProvider";
@@ -20,36 +20,14 @@ function Navbar() {
   const showSidebar = () => setSidebar(!sidebar);
 
   const showBurger = () => {
-    if (window.innerWidth <= 500) {
+    if (window.innerWidth <= 765) {
       setBurger(true);
     } else {
       setBurger(false);
     }
   };
 
-//   function theUserSignOut() {
 
-//     const signedOut = null
-//     const auth = null;
-//     //  auth.signOut();
-//     if (signedOut) {
-//       Navigate("/login");
-//     //   dispatch({
-//     //             type: "SET_USER",
-//     //             user: null,
-//     //           });
-//     } else {
-//       Navigate("/login");
-//     }
-//   }
-//   const out = " ";
-//   useEffect(() => {
-//     showBurger();
-//     theUserSignOut();
-//     return () => {
-//       // Unsubscribe();
-//     };
-//   }, [out]);
 
   window.addEventListener("resize", showBurger);
 
@@ -63,11 +41,6 @@ function Navbar() {
 
   window.addEventListener("scroll", changeBackground);
 
-  function signout() {
-    if (user) {
-    //   auth.signOut();
-    }
-  }
 
   console.log(user);
 
@@ -81,33 +54,37 @@ function Navbar() {
             </Link>
           ) : (
             <Link to="/" className="logo">
-              <h3>CodeChallenge</h3>
+                <img
+                src="assets/img/solfixlogos/solfixlogo3.jpeg"
+                // style={{height:"100%"}}
+                alt="The solfix logo"
+              />
             </Link>
           )}
 
-          {burger ? (
-            ""
+          {burger ? (  ""
           ) : (
             <div className="nav-menu">
-              <Link to="/factorial">Factorial</Link>
-              <Link to="/squareroot"> Square root</Link>
-              <Link to="/results"> Results</Link>
-              <Link to="/login">{user?.email}</Link>
-              {!user ? (
-                <Link to="/login">Sign Up</Link>
-              ) : (
-                <Link to="/login" 
-                // onClick={theUserSignOut}
-                >
-                  Sign Out
-                </Link>
-              )}
+              <Link to="/factorial">Home</Link>
+              <Link to="/squareroot"> services</Link>
+              <Link to="/results"> Features</Link>
+                <a href="tel:256751297229">
+                  <i className="bi bi-telephone-fill mx-1 text-danger"></i>Call
+                  us
+                </a>
+                <Link to="/login">About</Link>
+                <Link to="/login">Contact</Link>
+              
             </div>
           )}
 
           {burger ? (
             <Link to="/" className="logo">
-              <h3>CodeChallenge</h3>
+                <img
+                src="assets/img/solfixlogos/solfixlogo3.jpeg"
+                // style={{height:"100%"}}
+                alt="The solfix logo"
+              />
             </Link>
           ) : (
             ""
