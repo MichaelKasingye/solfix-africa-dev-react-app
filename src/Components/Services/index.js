@@ -1,15 +1,10 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import {Link} from "react-router-dom";
+import React from "react";
+
+import { Link } from "react-router-dom";
 
 import { ServicesData } from "../../utilities/Services";
 
 function Services() {
-  useEffect(() => {
-    Aos.init({ duration: 900 });
-  }, []);
-
   return (
     <section id="services" className="about-boxes">
       <div className="container" data-aos="fade-up">
@@ -20,7 +15,7 @@ function Services() {
         <div className="row">
           {ServicesData.map((info) => (
             <div
-            key={info.id}
+              key={info.id}
               className="col-lg-4 col-md-6 d-flex align-items-stretch align-items-center "
               style={{ height: "280px" }}
               data-aos="fade-up"
@@ -35,10 +30,11 @@ function Services() {
                   <p className="card-text fs-5 p-1">{info.description}</p>
                   <div className="text-end buttons">
                     {/* <a href="/#" class="btn btn-outline-primary btn-sm rounded-0 "data-bs-toggle="modal" data-bs-target="#exampleModal">Ask Us</a> */}
-                    <Link to={info.path}className="btn btn-danger btn-sm mx-1 rounded-3">
-                    
-                        Get started &#8594;
-                     
+                    <Link
+                      to={info.path}
+                      className="btn btn-danger btn-sm mx-1 rounded-3"
+                    >
+                      Get started &#8594;
                     </Link>
                   </div>
                 </div>

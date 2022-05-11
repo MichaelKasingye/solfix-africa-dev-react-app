@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+
 // import motto from "./Motto.module.css";
 import {Link} from "react-router-dom";
 
@@ -8,9 +7,6 @@ import BodyTitle from "../BodyTitle";
 import { FeaturedServices } from "../../utilities/features";
 
 function Services() {
-  useEffect(() => {
-    Aos.init({ duration: 600 });
-  }, []);
 
   return (
     <section id="featured-services" className="about-boxes featured-services">

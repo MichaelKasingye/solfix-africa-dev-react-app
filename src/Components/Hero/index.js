@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // import Image from 'next/image';
 function Hero() {
@@ -16,20 +16,20 @@ function Hero() {
               On-demand services. Less stress, more time and better business.
             </h2>
             <div className="d-flex">
-              <Link
-                to="/#"
-                className="btn btn-danger rounded-0 p-3 fw-bold fs-4"
-                data-bs-toggle="modal"
-                data-bs-target="#healthCheck"
+              <a
+                href="#featured-services"
+                className="btn btn-danger rounded-3 p-3 fw-bold fs-4"
+                // data-bs-toggle="modal"
+                // data-bs-target="#healthCheck"
               >
-                Health Check
-              </Link>
-              <Link
-                to="/#services"
-                className="btn btn-outline-danger rounded-0 mx-1 fs-4 d-flex align-items-center"
+                Documents
+              </a>
+              <a
+                href="#services"
+                className="btn btn-outline-danger rounded-3 mx-1 fs-4 d-flex align-items-center"
               >
                 <span>Our Services</span>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img">
