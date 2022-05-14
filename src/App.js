@@ -9,6 +9,8 @@ import Nav from "./Components/NavBar";
 import Footer from "./Components/Footer";
 
 import FeaturesPage from "./Pages/FeaturesPage";
+import FeaturesProductDecriptionPage from "./Pages/FeaturesProductDecriptionPage";
+
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Error from "./Pages/Error";
@@ -27,6 +29,8 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/fetures-page" element={<FeaturesPage />} />
+        <Route path="/fetures-decription-page/:id" element={<FeaturesProductDecriptionPage />} />
+
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>

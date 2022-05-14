@@ -66,14 +66,14 @@ function Navbar() {
           ) : (
             <div className="nav-menu">
               <Link to="/">Home</Link>
-              <Link to="/"> services</Link>
-              <Link to="/"> Features</Link>
+              <a href="#services"> services</a>
+              <a href="#featured-services"> Features</a>
+                <Link to="/about">About</Link>
+                <Link to="/Contact">Contact</Link>
                 <a href="tel:256751297229">
                   <i className="bi bi-telephone-fill mx-1 text-danger"></i>Call
                   us
                 </a>
-                <Link to="/">About</Link>
-                <Link to="/">Contact</Link>
               
             </div>
           )}

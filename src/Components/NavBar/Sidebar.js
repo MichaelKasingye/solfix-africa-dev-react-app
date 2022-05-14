@@ -13,14 +13,14 @@ export const SidebarData = [
     },
     {
         title: 'Services',
-        path: '/',
+        path: '#services',
         // icon: <AiIcons.AiFillHome className="icon"/>,
         cName: className
     },
     
     {
         title: 'Features',
-        path: '/',
+        path: '#featured-services',
         // icon: <IoIcons.IoIosPaper className="icon"/>,
         cName: className
     },
@@ -32,13 +32,13 @@ export const SidebarData = [
     },
     {
         title: 'About',
-        path: '/',
+        path: '/about',
         // icon: <IoIcons.IoMdPeople className="icon"/>,
         cName: className
     },
     {
         title: 'Contact',
-        path: '/',
+        path: '/contact',
         // icon: <IoIcons.IoMdPeople className="icon"/>,
         cName: className
     }

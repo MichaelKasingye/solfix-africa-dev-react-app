@@ -1,12 +1,12 @@
 import React from "react";
 import BodyTitle from "../Components/BodyTitle";
-import Card from "../Components/Card";
+import Cards from "../Components/Card";
 
 function FeaturesPage() {
   return(
-    <div style={{margin:"150px 0 20px 0"}} className="container">
+    <div style={{margin:"150px 0 20px 0"}} >
     <BodyTitle title="REGISTRATION" />
-    <Card/>
+    <Cards/>
     
 </div>
 

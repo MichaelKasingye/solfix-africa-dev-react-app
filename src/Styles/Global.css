@@ -1262,25 +1262,32 @@ body {
 
 .single-product .product-info .category {
   color: #888;
-  font-size: 13px;
+  font-size: 16px;
   display: block;
   margin-bottom: 2px;
 }
 
-.single-product .product-info .title a {
-  font-size: 16px;
+.single-product .product-info .title span {
+  font-size: 20px;
   font-weight: 700;
   color: #1e3647;
+}
+@media (max-width: 770px){
+  .single-product .product-image .button {
+    bottom: 10px;
+    opacity: 9;
+    visibility: visible;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
-  .single-product .product-info .title a {
+  .single-product .product-info .title span {
     font-size: 15px;
   }
 }
 
-.single-product .product-info .title a:hover {
+.single-product .product-info .title span:hover {
   color: #BB2D3B;
 }
 
