@@ -107,8 +107,10 @@ function submitHandle(e){
                 </label>
               </div>
             </div>
-         
-            <input type="Submit" className="btn btn-danger rounded-0 m-2" data-bs-dismiss="modal" />
+            {/* data-bs-dismiss="modal"  */}
+            <input type="Submit" className="btn btn-danger rounded-0 m-2" />
+            {/* Impletment a conditional rendering if successfully 
+            submitted to show the close button to enable user to close the modal */}
           </form>
         </div>
       </div>
