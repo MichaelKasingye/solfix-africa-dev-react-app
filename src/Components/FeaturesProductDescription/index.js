@@ -1,7 +1,21 @@
 import React from 'react'
 import ShortBodyTitle from '../BodyTitle/ShortBodyTitle'
+import { useParams } from "react-router-dom";
+import { companyRegData } from '../../utilities/companyRegistrationData';
 
-export default function index() {
+export default function Index() {
+  // const [data, setData] = useState('')
+  const { id } = useParams();
+  
+  const registrationCompanyData = companyRegData.filter(info => info.id = id);
+  
+  // useEffect(() => {
+  //   setData(registrationCompanyData[0])
+  // }, [registrationCompanyData])
+  
+
+  // console.log(data);
+
   return (
     <div className="col-sm-12">
         <ShortBodyTitle title="Business Plan"/>
@@ -12,7 +26,7 @@ export default function index() {
            <img src="https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="document visual" className="img-fluid"/>
         </div>
         <div className='my-4 fw-bold border-bottom border-secondary'>
-           <h3 className='fw-bold fs-2'> UGX<span className='text-danger'>50000</span></h3>
+           <h3 className='fw-bold fs-2'> UGX<span className='text-danger'>{registrationCompanyData[0].price}</span></h3>
         </div>
       </div>
 
@@ -20,48 +34,37 @@ export default function index() {
         <div className="row">
           <div className="col-sm-12">
             <div className="title-box-d">
-              <h3 className="title-d">Business plan</h3>
+              <h3 className="title-d">{registrationCompanyData[0].title}</h3>
             </div>
           </div>
         </div>
         <div className="product-description">
              <p className="description color-text-a no-margin">
-             A Resolution is a formal means by which decisions are made by a meeting of 
-             company, Resolutions a drafted to legally express the company decision and 
-             can be registered with URSB.
+             {registrationCompanyData[0].description}
           </p>
-          <p className="description color-text-a">
-            Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia Curae; Donec velit neque, auctor sit
-            amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies
-            ligula sed magna dictum porta. Curabitur aliquet quam id dui
-            posuere blandit. Mauris blandit aliquet elit, eget tincidunt
-            nibh pulvinar quam id dui posuere blandit.
-          </p>
-         
+          
         </div>
         <div className="row section-t3">
           <div className="col-sm-12">
             <div className="title-box-d">
-              <h3 className="title-d">Amenities</h3>
+              <h3 className="title-d">Features</h3>
             </div>
           </div>
         </div>
         <div className="amenities-list color-text-a">
           <ul className="list-a no-margin">
-            <li>Fast Turn Around time in 24hrs</li>
-            <li>Well defined document</li>
-            <li>Fast Turn Around time in 24hrs</li>
-            <li>Well defined document</li>
-            <li>Fast Turn Around time in 24hrs</li>
-            <li>Well defined document</li>
+            {
+              [...registrationCompanyData[0].features].map((info, index) => (
+                <li key={index}>{info}</li>
+              ))
+              }
           </ul>
         </div>
         <div>
         <a href="#services" 
            className="btn btn-danger rounded-3 mx-1 fs-4 d-flex justify-content-center"
            data-bs-toggle="modal" data-bs-target="#CompanyFormation">
-                <span className='fw-bold'>Fill Form</span>
+                <span className='fw-bold'>Buy Document</span>
         </a>
         </div>
       </div>

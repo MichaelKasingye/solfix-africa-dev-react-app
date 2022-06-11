@@ -11,19 +11,7 @@ export const SidebarData = [
         // icon: <IoIcons.IoIosPaper className="icon"/>,
         cName: className
     },
-    {
-        title: 'Services',
-        path: '#services',
-        // icon: <AiIcons.AiFillHome className="icon"/>,
-        cName: className
-    },
-    
-    {
-        title: 'Features',
-        path: '#featured-services',
-        // icon: <IoIcons.IoIosPaper className="icon"/>,
-        cName: className
-    },
+ 
     {
         title: 'Call Us',
         path: '/',

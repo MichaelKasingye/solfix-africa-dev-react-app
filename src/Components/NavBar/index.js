@@ -66,8 +66,8 @@ function Navbar() {
           ) : (
             <div className="nav-menu">
               <Link to="/">Home</Link>
-              <a href="#services"> services</a>
-              <a href="#featured-services"> Features</a>
+              {/* <a href="#services"> services</a> */}
+              <a href="#featured-services"> services</a>
                 <Link to="/about">About</Link>
                 <Link to="/Contact">Contact</Link>
                 <a href="tel:256751297229">
@@ -100,6 +100,12 @@ function Navbar() {
                 />
               </Link>
             </li>
+            <li className="sidebar-text">
+                  <a href="/#featured-services">
+                    {/* {item.icon} */}
+                    <span>Services</span>
+                  </a>
+                </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
@@ -110,6 +116,7 @@ function Navbar() {
                 </li>
               );
             })}
+             
           </ul>
         </div>
       </IconContext.Provider>

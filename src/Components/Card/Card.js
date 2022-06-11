@@ -19,7 +19,7 @@ function Card({id, image, title, description, price, alt}) {
       <h4 className="title">
         <span >{title}</span>
       </h4>
-      <span className="category">{description}</span>
+      <span className="category">{description.slice(0,60)} | view more...</span>
       {/* <ul className="review">
         <li>
           <i className="bi bi-star-fill" />

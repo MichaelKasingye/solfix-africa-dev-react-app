@@ -143,6 +143,7 @@ object-fit: cover;
     top: 0;
     left: -100%;
     transition: 850ms;
+    z-index: 100;
   }
   
   .sidebar-menu.active {

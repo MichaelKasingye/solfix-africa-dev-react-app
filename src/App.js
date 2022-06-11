@@ -8,7 +8,10 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import Nav from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import Modals from "./Components/Modals";
-import FeaturesPage from "./Pages/FeaturesPage";
+import CompanyRegistrationPage from "./Pages/CompanyRegistrationPage";
+import LegalDocumentsPage from "./Pages/LegalDocumentsPage";
+
+
 import FeaturesProductDecriptionPage from "./Pages/FeaturesProductDecriptionPage";
 import SubmitFeedBack from "./Pages/SubmitFeedBack";
 
@@ -29,7 +32,9 @@ function App() {
       <Nav />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/fetures-page" element={<FeaturesPage />} />
+        <Route path="/company-registration-page" element={<CompanyRegistrationPage />} />
+        <Route path="/legal-documents-page" element={<LegalDocumentsPage />} />
+
         <Route path="/fetures-decription-page/:id" element={<FeaturesProductDecriptionPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/submit-feedback" element={<SubmitFeedBack />} />
