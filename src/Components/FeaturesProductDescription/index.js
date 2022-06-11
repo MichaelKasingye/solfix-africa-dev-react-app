@@ -7,7 +7,8 @@ export default function Index() {
   // const [data, setData] = useState('')
   const { id } = useParams();
   
-  const registrationCompanyData = companyRegData.filter(info => info.id = id);
+  // eslint-disable-next-line 
+  const registrationCompanyData = companyRegData.filter(info => info.id == id);
   
   // useEffect(() => {
   //   setData(registrationCompanyData[0])

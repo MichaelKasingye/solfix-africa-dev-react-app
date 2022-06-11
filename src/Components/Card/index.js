@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import { legalDocumentData } from "../../utilities/legalDocumentsData";
+import { companyRegData } from "../../utilities/companyRegistrationData";
 // console.log(companyRegData);
 
 function index() {
   return (
     <div className="row d-flex justify-content-center" style={{margin:"auto auto"}}>
-      {legalDocumentData.map((data) => (
+      {companyRegData.map((data) => (
         <Card 
         key={data.id}
         id={data.id}
