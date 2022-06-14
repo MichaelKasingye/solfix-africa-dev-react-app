@@ -28,7 +28,7 @@ function Hero() {
                 href="#services"
                 className="btn btn-outline-danger rounded-3 mx-1 fs-4 d-flex align-items-center"
               >
-                <span>Our Services</span>
+                <span>Services</span>
               </a>
             </div>
           </div>

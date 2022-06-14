@@ -13,7 +13,7 @@ function Footer() {
                 <div className="footer-info">
                   <h3>Solfix Africa</h3>
                   <p>
-                    Charm Towers level - 2 <br />
+                    Charm Towers Level 2 <br />
                     Plot 12, Kampala Road
                     <br />
                     <br />
@@ -36,8 +36,8 @@ function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-6 footer-links">
-                <h4>Useful Links</h4>
+              {/* <div className="col-lg-2 col-md-6 footer-links">
+                <h4>Popular Services</h4>
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right" /> <a href="/">Home</a>
@@ -51,25 +51,25 @@ function Footer() {
                     <a href="/">Services</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
+                <h4>Popular Services</h4>
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right" />{" "}
-                    <a href="/">Intellectual Property</a>
+                    <a href="/">Register a Company</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right" />{" "}
-                    <a href="/">Business Development</a>
+                    <a href="/">Legal Documents</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right" />{" "}
-                    <a href="/">Trainings</a>
+                    <a href="/">Get a client</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bx bx-chevron-right" /> <a href="/">Tax</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="col-lg-4 col-md-6 footer-newsletter">

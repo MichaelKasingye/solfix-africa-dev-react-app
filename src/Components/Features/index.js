@@ -11,7 +11,7 @@ function Services() {
   return (
     <section id="featured-services" className="about-boxes featured-services">
       <div className="container" data-aos="fade-up">
-        <BodyTitle title="FEATURES" />
+        <BodyTitle title="Services" />
         <div className="row d-flex align-items-center justify-content-center">
           {
           FeaturedServices.map((info) => (

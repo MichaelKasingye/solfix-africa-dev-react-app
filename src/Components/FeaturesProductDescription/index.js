@@ -1,21 +1,21 @@
 import React from 'react'
 import ShortBodyTitle from '../BodyTitle/ShortBodyTitle'
 import { useParams } from "react-router-dom";
-import { companyRegData } from '../../utilities/companyRegistrationData';
+import { productData } from '../../utilities/data';
 
 export default function Index() {
   // const [data, setData] = useState('')
   const { id } = useParams();
   
   // eslint-disable-next-line 
-  const registrationCompanyData = companyRegData.filter(info => info.id == id);
+  const registrationCompanyData = productData.filter(info => info.id == id);
   
   // useEffect(() => {
   //   setData(registrationCompanyData[0])
   // }, [registrationCompanyData])
   
 
-  // console.log(data);
+  console.log(registrationCompanyData);
 
   return (
     <div className="col-sm-12">

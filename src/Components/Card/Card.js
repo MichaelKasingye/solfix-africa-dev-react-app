@@ -11,7 +11,7 @@ function Card({id, image, title, description, price, alt}) {
       <img src={image} alt={alt} />
       <div className="button">
         <span  className="btn">
-           View Product
+           View Document
         </span>
       </div>
     </div>
@@ -19,7 +19,7 @@ function Card({id, image, title, description, price, alt}) {
       <h4 className="title">
         <span >{title}</span>
       </h4>
-      <span className="category">{description.slice(0,60)} | view more...</span>
+      <span className="category">{description.slice(0,60)}...</span>
       {/* <ul className="review">
         <li>
           <i className="bi bi-star-fill" />
