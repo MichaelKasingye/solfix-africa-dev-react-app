@@ -1268,11 +1268,16 @@ body {
   display: block;
   margin-bottom: 2px;
 }
-
-.single-product .product-info .title span {
-  font-size: 20px;
+/* .single-product .product-info h4{
+  border: 2px solid red;
+  text-align: left;
+} */
+.single-product .product-info .title  {
+  text-transform: capitalize;
   font-weight: 700;
-  color: #1e3647;
+  font-size: 20px;
+  color: #1679b6
+  
 }
 @media (max-width: 770px){
   .single-product .product-image .button {
@@ -1284,12 +1289,12 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
-  .single-product .product-info .title span {
+  .single-product .product-info .title  {
     font-size: 15px;
   }
 }
 
-.single-product .product-info .title span:hover {
+.single-product .product-info .title:hover {
   color: #BB2D3B;
 }
 
@@ -1733,6 +1738,11 @@ body {
     width: 100%;
     background-color: #f9f9fa;
   }
+  .contact .contact_details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   .contact .info i {
     font-size: 20px;
     color: #ed3c0d;
@@ -1780,6 +1790,12 @@ body {
     background: #ed3c0d;
     color: #fff;
   }
+  /* .email{
+    display: flex;
+    align-content: center;
+    width: 50px;
+    border: 2px solid red;
+  } */
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
     background: #ed3c0d;
     color: #fff;

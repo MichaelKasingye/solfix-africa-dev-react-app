@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Card({id, image, title, description, price, alt}) {
+function Card({id, image, title, descriptions, price, alt}) {
+  console.log(descriptions )
+
   return (
     <div className="col-lg-4 col-md-6 col-12" style={{width:"300px"}}>
     <Link to={"/fetures-decription-page/"+id}>
@@ -16,30 +18,11 @@ function Card({id, image, title, description, price, alt}) {
       </div>
     </div>
     <div className="product-info">
-      <h4 className="title">
-        <span >{title}</span>
-      </h4>
-      <span className="category">{description.slice(0,60)}...</span>
-      {/* <ul className="review">
-        <li>
-          <i className="bi bi-star-fill" />
-        </li>
-        <li>
-          <i className="bi bi-star-fill" />
-        </li>
-        <li>
-          <i className="bi bi-star-fill" />
-        </li>
-        <li>
-          <i className="bi bi-star-fill" />
-        </li>
-        <li>
-          <i className="bi bi-star-fill" />
-        </li>
-        <li>
-          <span>4.0 Review(s)</span>
-        </li>
-      </ul> */}
+      {/* <h4 > */}
+        <span className="title">{title}</span>
+      {/* </h4> */}
+      <span className="category">{descriptions}...</span>
+     
       <div className="price">
         <span>UGX {price}</span>
       </div>

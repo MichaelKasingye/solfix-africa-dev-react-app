@@ -1,23 +1,21 @@
 import React from "react";
 import Card from "./Card";
-import { productData } from "../../utilities/data";
-// console.log(companyRegData);
 
-function index() {
+function Index({data}) {
   return (
     <div className="row d-flex justify-content-center" style={{margin:"auto auto"}}>
-      {productData.map((data) => (
+      {data.map((info) => (
         <Card 
-        key={data.id}
-        id={data.id}
-        image={data.image}
-        alt={data.alt}
-         title={data.title}
-         description={data.description}
-         price={data.price} />
+        key={info.id}
+        id={info.id}
+        image={info.image}
+        alt={info.alt}
+         title={info.title}
+         descriptions={info.description.slice(0,60)}
+         price={info.price} />
       ))}
     </div>
   );
 }
 
-export default index;
+export default Index;

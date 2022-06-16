@@ -6,8 +6,7 @@ export const productData = [
     alt: "Co founders Agreement visual",
     section:"CompanyRegistration",
     title: "Co founders Agreement",
-    description:
-      "A co-founder Agreement allows you to set out the equity ownership, initial investments and responsibilities of each Co-founder.",
+    description:"A co-founder Agreement allows you to set out the equity ownership, initial investments and responsibilities of each Co-founder.",
       features:[
         "Co-founder details",
         "Work/project scope",
@@ -26,8 +25,7 @@ export const productData = [
     alt: "Shareholders agreement",
     section:"CompanyRegistration",
     title: "Shareholders agreement ",
-    description:
-      "A shareholders Agreement will help you govern the relationship between your company shareholders. Although you and your partners are on good terms now, sometimes running a company will strain on the relationship, therefore it’s better to prepare from the onset and protect your interests and the company.",
+    description:"A shareholders Agreement will help you govern the relationship between your company shareholders. Although you and your partners are on good terms now, sometimes running a company will strain on the relationship, therefore it’s better to prepare from the onset and protect your interests and the company.",
       features:[
         "Shareholder details",
         "Powers and responsibilities of a shareholder",
@@ -45,8 +43,7 @@ export const productData = [
     alt: "Business Plan",
     section:"CompanyRegistration",
     title: "Business Plan",
-    description:
-      "A document setting out a business's future objectives and strategies for achieving them.",
+    description:"A document setting out a business's future objectives and strategies for achieving them.",
       features:[
         "Your business overview",
         "Product or service",
@@ -64,8 +61,7 @@ export const productData = [
     alt: "Non-Disclosure Agreement (NDA)",
     section:"CompanyRegistration",
     title: "Non-Disclosure Agreement (NDA)",
-    description:
-      "A Non-disclosure agreement is a legal document that forbids a recipient of information from disclosing that information to any person or entity. Before sharing any information that is so important to your company it is crucial that you sign it.",
+    description:"A Non-disclosure agreement is a legal document that forbids a recipient of information from disclosing that information to any person or entity. Before sharing any information that is so important to your company it is crucial that you sign it.",
       features:[
         "Description of the confidential information",
         "Rights and obligations",
@@ -82,8 +78,7 @@ export const productData = [
     alt: "Service Contract",
     section:"CompanyRegistration",
     title: "Service Contract",
-    description:
-      "a contract used between a service provider and a client (or customer) that outlines the exchange of services for compensation.",
+    description:"A contract used between a service provider and a client (or customer) that outlines the exchange of services for compensation.",
       features:[
         "Performance  of the services",
         "Consideration/payment ",
@@ -103,8 +98,7 @@ export const productData = [
     alt: "Board resolution",
     section:"CompanyRegistration",
     title: "Board resolution",
-    description:
-      "A Resolution is a formal means by which decisions are made by a meeting of company, Resolutions a drafted to legally express the company decision and can be registered with URSB.",
+    description:"A Resolution is a formal means by which decisions are made by a meeting of company, Resolutions a drafted to legally express the company decision and can be registered with URSB.",
       features:[
         "Details of the agreed on points",
         "Registration",
@@ -119,8 +113,7 @@ export const productData = [
     alt: "Joint venture Agreements",
     section:"CompanyRegistration",
     title: "Joint venture Agreements",
-    description:
-      "A joint venture is a contract between two or more parties who want to do business together for a period of time. Instead of forming a company, or partnership if your intention is to join with another party and have an equal stake in the venture. You can choose to enter a Joint venture Agreement.",
+    description:"A joint venture is a contract between two or more parties who want to do business together for a period of time. Instead of forming a company, or partnership if your intention is to join with another party and have an equal stake in the venture. You can choose to enter a Joint venture Agreement.",
       features:[
         "Business objectives",
         "Responsibilities of each party",
@@ -140,8 +133,7 @@ export const productData = [
     alt: "Employment agreement",
     section:"legalDocument",
     title: "Employment agreement",
-    description:
-      "Employment Agreement is an essential document when hiring employees for your business. They are not only necessary for your legal protection; they can help set the tone and feel of your business. It also helps formalize the relationship between employee an employer which enhances professional and positive work.",
+    description:"Employment Agreement is an essential document when hiring employees for your business. They are not only necessary for your legal protection; they can help set the tone and feel of your business. It also helps formalize the relationship between employee an employer which enhances professional and positive work.",
       features:[
         "Scope of work",
         "Employee obligations",
@@ -161,8 +153,7 @@ export const productData = [
     alt: "Casual worker agreements (part time)",
     section:"legalDocument",
     title: "Casual worker agreements (part time) ",
-    description:
-      "This Casual Worker's Contract is for use where there is no mutuality of obligation and no continuing employment relationship between assignments.",
+    description:"This Casual Worker's Contract is for use where there is no mutuality of obligation and no continuing employment relationship between assignments.",
       features:[
         "Work description", 
         "Working ours",
@@ -178,8 +169,7 @@ export const productData = [
     alt: "Contractor agreement ",
     section:"legalDocument",
     title: "Contractor agreement ",
-    description:
-      "An independent Contractor Agreement is a written contract that spells out the terms of the working arrangement between a contractor and client; it includes a description of services, terms of service and payment details among others.",
+    description:"An independent Contractor Agreement is a written contract that spells out the terms of the working arrangement between a contractor and client; it includes a description of services, terms of service and payment details among others.",
       features:[
         "Service performance",
         "Consideration",
@@ -197,8 +187,7 @@ export const productData = [
     alt: "Termination deed/letter",
     section:"legalDocument",
     title: "Termination deed/letter",
-    description:
-      "A termination letter is one to be used when terminating an employee, this is to be signed by the employee finalizing all outstanding issues between the employer and employee. This deed will allow you with future issues smoothly, such as contractual claims or claims arising out of the termination of employment.",
+    description:"A termination letter is one to be used when terminating an employee, this is to be signed by the employee finalizing all outstanding issues between the employer and employee. This deed will allow you with future issues smoothly, such as contractual claims or claims arising out of the termination of employment.",
       features:[
         "Employment obligations clause",
         "Restraint of trade clause",

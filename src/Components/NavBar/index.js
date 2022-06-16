@@ -68,12 +68,12 @@ function Navbar() {
               <Link to="/">Home</Link>
               {/* <a href="#services"> services</a> */}
               <a href="#featured-services"> Services</a>
-                <Link to="/about">About</Link>
                 <Link to="/Contact">Contact</Link>
-                <a href="tel:256751297229">
+                <Link to="/about">About</Link>
+                {/* <a href="tel:256751297229">
                   <i className="bi bi-telephone-fill mx-1 text-danger"></i>Call
                   us
-                </a>
+                </a> */}
               
             </div>
           )}

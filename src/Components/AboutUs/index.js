@@ -28,15 +28,15 @@ function AboutUs() {
             <p className="fst-italic">We are here:</p>
             <ul>
               <li>
-                <i className="bx bx-check-double" />
+                <i className="bi bi-check-all" />
                 Helping entrepreneurs turn ideas into businesses.
               </li>
               <li>
-                <i className="bx bx-check-double" /> Providing access to our
+                <i className="bi bi-check-all" /> Providing access to our
                 independent network of professionals.
               </li>
               <li>
-                <i className="bx bx-check-double" /> Getting all documentation
+                <i className="bi bi-check-all" /> Getting all documentation
                 for starting your business and growing it.
               </li>
             </ul>
