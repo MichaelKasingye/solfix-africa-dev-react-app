@@ -67,7 +67,7 @@ function Navbar() {
             <div className="nav-menu">
               <Link to="/">Home</Link>
               {/* <a href="#services"> services</a> */}
-              <a href="#featured-services"> Services</a>
+              <a href="/#featured-services"> Services</a>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/about">About</Link>
                 {/* <a href="tel:256751297229">

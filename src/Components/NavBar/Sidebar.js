@@ -12,12 +12,18 @@ export const SidebarData = [
         cName: className
     },
  
-    {
-        title: 'Call Us',
-        path: '/',
-        // icon: <FaIcons.FaCartPlus className="icon"/>,
-        cName: className
-    },
+    // {
+    //     title: 'Call Us',
+    //     path: '/',
+    //     // icon: <FaIcons.FaCartPlus className="icon"/>,
+    //     cName: className
+    // },
+    // {
+    //     title: 'Services',
+    //     path: '/#featured-services',
+    //     // icon: <IoIcons.IoMdPeople className="icon"/>,
+    //     cName: className
+    // },
     {
         title: 'About',
         path: '/about',
