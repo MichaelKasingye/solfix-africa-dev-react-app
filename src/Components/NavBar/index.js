@@ -14,7 +14,7 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [burger, setBurger] = useState(false);
 //   const [{ user }, dispatch] = useStateValue();
-  const user = "null";
+  // const user = "null";
 //   const history = useHistory();
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -32,7 +32,7 @@ function Navbar() {
   window.addEventListener("resize", showBurger);
 
   const changeBackground = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 5) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -42,7 +42,7 @@ function Navbar() {
   window.addEventListener("scroll", changeBackground);
 
 
-  console.log(user);
+  // console.log(user);
 
   return (
     <>
@@ -66,14 +66,11 @@ function Navbar() {
           ) : (
             <div className="nav-menu">
               <Link to="/">Home</Link>
-              {/* <a href="#services"> services</a> */}
               <a href="/#featured-services"> Services</a>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/about">About</Link>
-                {/* <a href="tel:256751297229">
-                  <i className="bi bi-telephone-fill mx-1 text-danger"></i>Call
-                  us
-                </a> */}
+                <a className="buttons-filled " href="https://solfixafrica.com/signup">Sign Up</a>
+                <a className="buttons-outlined mx-1"  href="https://solfixafrica.com/signin"  >Sign In</a>
               
             </div>
           )}
@@ -116,7 +113,12 @@ function Navbar() {
                 </li>
               );
             })}
-             
+             <li className="sidebar-text">
+             <a className="buttons-filled " href="https://solfixafrica.com/signup">Sign Up</a>
+                </li>
+                <li className="sidebar-text">
+                <a className="buttons-outlined mx-1"  href="https://solfixafrica.com/signin"  >Sign In</a>
+                </li>
           </ul>
         </div>
       </IconContext.Provider>

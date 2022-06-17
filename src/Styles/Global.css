@@ -161,6 +161,7 @@ body {
     height: 80px;
   }
     .navbar a{
+      /* border: 2px solid red; */
     float: left;
     display: block;
     color: #121D24;
@@ -170,6 +171,12 @@ body {
     text-decoration: none;
     font-size: 17px;
     } 
+    .navbar a:hover{
+    color: #EA5554;
+    }
+    .navbar a:active{
+      color: #15222B;
+      }
     .navbar-nav{
       display: flex;
       flex-direction: row;
@@ -187,37 +194,37 @@ body {
     .nav-lists a:active{
       color: #EA4D4E;
     }
-  .buttons-filled a{
-    /* border: 1px solid ; */
-    background-color: #EA4D4E;
-    height: 40px;
-    text-align: center;
-   color: white;
-  }
-  .buttons-filled a:hover{
-    background-color: white;
-    /* border: 1px solid #EA4D4E ; */
-    color: #EA4D4E;
-  }
-  .buttons-filled a:active{
-    background-color:#EA4D4E ;
-    color: white;
-  }
-  
-  .buttons-outlined a{
-    border: 1px solid #EA4D4E ;
-    height: 40px;
-    text-align: center;
-   color: #EA4D4E;
-  }
-  .buttons-outlined a:hover{
-    border: 1px solid white ;
-    color: #EA4D4E;
-  }
-  .buttons-outlined a:active{
-    background-color:#EA4D4E ;
-    color: white;
-  }
+    .buttons-filled {
+      /* border: 1px solid ; */
+      background-color: #EA4D4E;
+      height: 40px;
+      text-align: center;
+     color: white !important;
+    }
+    .buttons-filled:hover{
+      background-color: white;
+      /* border: 1px solid #EA4D4E ; */
+      color: #EA4D4E !important;
+    }
+    .buttons-filled:active{
+      background-color:#EA4D4E ;
+      color: white ;
+    }
+    
+    .buttons-outlined{
+      border: 1px solid #858EA1 ;
+      height: 40px;
+      text-align: center;
+     color: #EA4D4E;
+    }
+    .buttons-outlined:hover{
+      border: 1px solid white ;
+      color: #EA4D4E;
+    }
+    .buttons-outlined:active{
+      background-color:#EA4D4E ;
+      color: white;
+    }
   
     .side-nav{
     height: 100%;
@@ -1769,12 +1776,15 @@ body {
     font-size: 14px;
     color: #949cac;
   }
-  .contact .info .social-links {
+  .social-links {
     padding-left: 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+    width: 100%;
   }
-  .contact .info .social-links a {
+ .social-links a {
     font-size: 18px;
-    display: inline-block;
     background: #333;
     color: #fff;
     line-height: 1;
@@ -1784,7 +1794,7 @@ body {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-    margin-right: 10px;
+    margin: 0px 0px 0px 20px;
   }
   .contact .info .social-links a:hover {
     background: #ed3c0d;
@@ -2025,7 +2035,7 @@ body {
     transition: 0.3s;
   }
   #footer .footer-top .social-links a:hover {
-    background: #ff4a17;
+    background: #BB2D3B;
     color: #fff;
     text-decoration: none;
   }
@@ -2067,35 +2077,11 @@ body {
   #footer .footer-top .footer-links ul a:hover {
     color: #ff4a17;
   }
-  #footer .footer-top .footer-newsletter form {
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 4px;
+  #footer .footer-newsletter  {
+    /* border: 2px solid red; */
+  display: flex;
   }
-  #footer .footer-top .footer-newsletter form input[type=email] {
-    border: 0;
-    padding: 4px;
-    width: calc(100% - 110px);
-  }
-  #footer .footer-top .footer-newsletter form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #ff4a17;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 0 4px 4px 0;
-  }
-  #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-    background: #ff5e31;
-  }
+
   #footer .copyright {
     text-align: center;
     padding-top: 30px;

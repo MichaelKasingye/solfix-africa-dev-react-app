@@ -24,11 +24,11 @@ function Hero() {
               >
                 Documents
               </a>
-              <a
-                href="/#featured-services"
+              <a href="https://solfixafrica.com/signup" 
+              // target="_blank" rel="noopener"
                 className="btn btn-outline-danger rounded-3 mx-1 fs-4 d-flex align-items-center"
               >
-                <span>Services</span>
+                <span><strong>Sign Up Free</strong></span>
               </a>
             </div>
           </div>
