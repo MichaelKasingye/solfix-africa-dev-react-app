@@ -172,7 +172,7 @@ body {
     font-size: 17px;
     } 
     .navbar a:hover{
-    color: #EA5554;
+    color: #BB2D3B;
     }
     .navbar a:active{
       color: #15222B;
@@ -189,14 +189,14 @@ body {
     
     }
     .nav-lists a:hover{
-      color: #EA4D4E;
+      color: #BB2D3B;
     }
     .nav-lists a:active{
-      color: #EA4D4E;
+      color: #BB2D3B;
     }
     .buttons-filled {
       /* border: 1px solid ; */
-      background-color: #EA4D4E;
+      background-color: #BB2D3B;
       height: 40px;
       text-align: center;
      color: white !important;
@@ -204,10 +204,10 @@ body {
     .buttons-filled:hover{
       background-color: white;
       /* border: 1px solid #EA4D4E ; */
-      color: #EA4D4E !important;
+      color: #BB2D3B !important;
     }
     .buttons-filled:active{
-      background-color:#EA4D4E ;
+      background-color:#BB2D3B ;
       color: white ;
     }
     
@@ -215,11 +215,11 @@ body {
       border: 1px solid #858EA1 ;
       height: 40px;
       text-align: center;
-     color: #EA4D4E;
+     color: #BB2D3B;
     }
     .buttons-outlined:hover{
       border: 1px solid white ;
-      color: #EA4D4E;
+      color: #BB2D3B;
     }
     .buttons-outlined:active{
       background-color:#EA4D4E ;
