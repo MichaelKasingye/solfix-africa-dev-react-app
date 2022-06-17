@@ -615,7 +615,9 @@ body {
   }
   
   .section-title {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    margin: 0 0 5px 0;
+
   }
   .section-title h2 {
     font-size: 14px;
@@ -637,7 +639,6 @@ body {
     margin: 4px 10px;
   }
   .section-title p {
-    margin: 0;
     margin: 0;
     font-size: 36px;
     font-weight: 700;
@@ -985,12 +986,10 @@ body {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services .icon-box {
-    height: 300px;
-    /* max-width: 500px; */
+    height: 250px;
     padding: 30px;
     position: relative;
     overflow: hidden;
-    /* background: #fff; */
     background: #BB2D3B;
 
     box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
@@ -1026,7 +1025,7 @@ body {
   .featured-services .title {
     font-weight: 700;
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 28px;
   }
   .featured-services .title  {
     /* color: #BB2D3B; */
@@ -1035,9 +1034,9 @@ body {
   
   }
   .featured-services .description {
-    line-height: 28px;
+    /* line-height: 28px; */
     margin-bottom: 0;
-    font-size: 21px;
+    font-size: 19px;
     /* color: #616469; */
     color: #fff;
 
@@ -1176,10 +1175,10 @@ body {
   border-radius: 4px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  margin-top: 30px;
+  margin-top: 5px;
   -webkit-box-shadow: 0px 0px 20px #00000012;
   box-shadow: 0px 0px 20px #00000012;
-  padding: 8px;
+  padding: 0px;
   background: #fff;
 }
 
@@ -1282,7 +1281,7 @@ body {
 .single-product .product-info .title  {
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   color: #1679b6
   
 }
@@ -1353,6 +1352,9 @@ body {
 
 .trending-product .section-title {
   margin-bottom: 20px;
+}
+.document-features{
+  margin: 110px 0 20px 10px;
 }
 
   /*--------------------------------------------------------------

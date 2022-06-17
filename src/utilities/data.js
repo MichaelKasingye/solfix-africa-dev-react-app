@@ -3,9 +3,9 @@ export const productData = [
     id: 1,
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Co founders Agreement visual",
+    alt: "Co-founders Agreement visual",
     section:"CompanyRegistration",
-    title: "Co founders Agreement",
+    title: "Co-founders Agreement",
     description:"A co-founder Agreement allows you to set out the equity ownership, initial investments and responsibilities of each Co-founder.",
       features:[
         "Co-founder details",

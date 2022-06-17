@@ -1,5 +1,5 @@
 import React from "react";
-import BodyTitle from "../Components/BodyTitle";
+import {PageTitle} from "../Components/BodyTitle";
 import Cards from "../Components/Card";
 import { productData } from "../utilities/data";
 
@@ -7,8 +7,8 @@ function FeaturesPage() {
   const registerCoDocuments = productData.filter(info => info.section ==="CompanyRegistration");
 // console.log(registerCoDocuments);
   return(
-    <div style={{margin:"150px 0 20px 0"}} >
-    <BodyTitle title="REGISTRATION" />
+    <div className="document-features" >
+    <PageTitle title="COMPANY REGISTRATION DOCUMENTS" />
     <Cards data = {registerCoDocuments}/>
     
 </div>

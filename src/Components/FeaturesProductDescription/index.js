@@ -19,7 +19,7 @@ export default function Index() {
 
   return (
     <div className="col-sm-12">
-        <ShortBodyTitle title="Business Plan"/>
+        <ShortBodyTitle title={registrationCompanyData[0].title}/>
     <div className="row justify-content-between">
 
       <div className="col-md-5 col-lg-4">
@@ -35,7 +35,7 @@ export default function Index() {
         <div className="row">
           <div className="col-sm-12">
             <div className="title-box-d">
-              <h3 className="title-d">{registrationCompanyData[0].title}</h3>
+              <h3 className="title-d text-capitalize">{registrationCompanyData[0].title}</h3>
             </div>
           </div>
         </div>
@@ -45,15 +45,15 @@ export default function Index() {
           </p>
           
         </div>
-        <div className="row section-t3">
+        <div className="row section-t3 ">
           <div className="col-sm-12">
             <div className="title-box-d">
-              <h3 className="title-d">Features</h3>
+              <h3 className="title-d">Contents</h3>
             </div>
           </div>
         </div>
-        <div className="amenities-list color-text-a">
-          <ul className="list-a no-margin">
+        <div className=" color-text-a">
+          <ul className="no-margin">
             {
               [...registrationCompanyData[0].features].map((info, index) => (
                 <li key={index}>{info}</li>
@@ -63,7 +63,7 @@ export default function Index() {
         </div>
         <div>
         <a href="#services" 
-           className="btn btn-danger rounded-3 mx-1 fs-4 d-flex justify-content-center"
+           className="btn btn-danger rounded-3 fs-5"
            data-bs-toggle="modal" data-bs-target="#CompanyFormation">
                 <span className='fw-bold'>Buy Document</span>
         </a>

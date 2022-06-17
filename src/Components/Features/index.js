@@ -3,7 +3,7 @@ import React from "react";
 // import motto from "./Motto.module.css";
 import {Link} from "react-router-dom";
 
-import BodyTitle from "../BodyTitle";
+// import BodyTitle from "../BodyTitle";
 import { FeaturedServices } from "../../utilities/features";
 
 function Services() {
@@ -11,7 +11,7 @@ function Services() {
   return (
     <section id="featured-services" className="about-boxes featured-services">
       <div className="container" data-aos="fade-up">
-        <BodyTitle title="Services" />
+        {/* <BodyTitle title="Services" /> */}
         <div className="row d-flex align-items-center justify-content-center">
           {
           FeaturedServices.map((info) => (

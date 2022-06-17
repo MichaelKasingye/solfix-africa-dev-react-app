@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Index({data}) {
   return (
-    <div className="row d-flex justify-content-center" style={{margin:"auto auto"}}>
+    <div className=" d-flex justify-content-center flex-column " style={{margin:"auto auto"}}>
       {data.map((info) => (
         <Card 
         key={info.id}

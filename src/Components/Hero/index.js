@@ -28,7 +28,7 @@ function Hero() {
               // target="_blank" rel="noopener"
                 className="btn btn-outline-danger rounded-3 mx-1 fs-4 d-flex align-items-center"
               >
-                <span><strong>Sign Up Free</strong></span>
+                <span><strong>Sign Up</strong></span>
               </a>
             </div>
           </div>

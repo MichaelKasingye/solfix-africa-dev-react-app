@@ -1,6 +1,6 @@
 import React from "react";
 
-function BodyTitle({title}) {
+export default function BodyTitle({title}) {
   return (
     <div className="section-title">
       <h2>{title}</h2>
@@ -9,4 +9,11 @@ function BodyTitle({title}) {
   );
 }
 
-export default BodyTitle;
+export  function PageTitle({title}) {
+  return (
+    <div className="section-title">
+      {/* <h2>{title}</h2> */}
+      <p>{title}</p>
+    </div>
+  );
+}
