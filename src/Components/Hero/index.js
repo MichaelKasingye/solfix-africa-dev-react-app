@@ -17,18 +17,18 @@ function Hero() {
             </h2>
             <div className="d-flex">
               <a
-                href="#featured-services"
-                className="btn btn-danger rounded-3 p-3 fw-bold fs-4"
+                href="/legal-documents-page"
+                className="btn btn-danger rounded-3 p-3 fw-bold fs-5"
                 // data-bs-toggle="modal"
                 // data-bs-target="#healthCheck"
               >
-                Documents
+                Legal Documents
               </a>
-              <a href="https://solfixafrica.com/signup" 
+              <a href="/company-registration-page" 
               // target="_blank" rel="noopener"
-                className="btn btn-outline-danger rounded-3 mx-1 fs-4 d-flex align-items-center"
+                className="btn btn-danger rounded-3 mx-2 fs-5 d-flex align-items-center"
               >
-                <span><strong>Sign Up</strong></span>
+                <span><strong>Company Registration</strong></span>
               </a>
             </div>
           </div>

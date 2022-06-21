@@ -68,12 +68,10 @@ function Footer() {
         </div>
         <div className="container">
           <div className="copyright">
-            © Copyright{" "}
-            <strong>
-              <span>Solfix</span>
-            </strong>
-            . All Rights Reserved
+          &copy;2022 All Rights Reserved - {" "}
+              <strong>Solfix Africa</strong>
           </div>
+          {/* <strong> &copy;</strong><script> document.write(new Date().getFullYear();</script> All Rights Reserved -<b> Solfix Africa</b> */}
         </div>
       </footer>
       {/* End Footer */}
