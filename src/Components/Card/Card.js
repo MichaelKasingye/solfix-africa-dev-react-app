@@ -6,7 +6,7 @@ function Card({id, image, title, descriptions, price, alt}) {
 
   return (
     <div className="w-100" style={{width:"300px"}}>
-    <Link to={"/fetures-decription-page/"+id}>
+    <Link to={"/features-description-page/"+id}>
 
     <div className="single-product" style={{width:"100%"}}>
     {/* <div className="product-image">

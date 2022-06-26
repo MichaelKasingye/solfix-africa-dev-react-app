@@ -14,7 +14,7 @@ export default function Index() {
   //   setData(registrationCompanyData[0])
   // }, [registrationCompanyData])
 
-  console.log(registrationCompanyData);
+  // console.log(registrationCompanyData);
 
   return (
     <div className="col-sm-12">

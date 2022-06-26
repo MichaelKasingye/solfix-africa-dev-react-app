@@ -54,7 +54,7 @@ function Navbar() {
               <img
                 src="assets/img/solfixlogos/solfixlogo3.jpeg"
                 // style={{height:"100%"}}
-                alt="The solfix logo"
+                alt="The Solfix logo"
               />
             </Link>
           )}
@@ -64,7 +64,7 @@ function Navbar() {
           ) : (
             <div className="nav-menu">
               <Link to="/">Home</Link>
-              <a href="/#featured-services"> Services</a>
+              <a href="/#services"> Services</a>
               <Link to="/Contact">Contact</Link>
               <Link to="/Pricing">Pricing</Link>
               <Link to="/about">About</Link>
@@ -106,7 +106,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="sidebar-text">
-              <a href="/#featured-services">
+              <a href="/#services">
                 {/* {item.icon} */}
                 <span>Services</span>
               </a>

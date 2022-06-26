@@ -39,9 +39,9 @@ function FeaturesPage() {
         a new company operating;</p>
       <span>
       <ol className="fs-5 m-0">
-      <li className="list-unstyled"><i class="bi bi-check-all text-danger mx-2"></i> Find the document you need from our list</li>
-      <li className="list-unstyled"><i class="bi bi-check-all text-danger mx-2"></i>Fill in the required relevant details</li>
-      <li className="list-unstyled "><i class="bi bi-check-all text-danger mx-2"></i>Make your order and payment</li>
+      <li className="list-unstyled"><i className="bi bi-check-all text-danger mx-2"></i> Find the document you need from our list</li>
+      <li className="list-unstyled"><i className="bi bi-check-all text-danger mx-2"></i>Fill in the required relevant details</li>
+      <li className="list-unstyled "><i className="bi bi-check-all text-danger mx-2"></i>Make your order and payment</li>
     </ol>
         </span></li>
 

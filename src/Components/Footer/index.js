@@ -43,7 +43,7 @@ function Footer() {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right" />{" "}
-                    <Link to="https://dashboard.solfixafrica.com/login">Sign Up</Link>
+                    <Link to="https://dashboard.solfixafrica.com/register">Sign Up</Link>
                   </li>
                   {/* <li>
                     <i className="bx bx-chevron-right" /> <a href="/">Tax</a>
