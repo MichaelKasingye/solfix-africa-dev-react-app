@@ -3,15 +3,40 @@ import {PageTitle} from "../Components/BodyTitle";
 import Cards from "../Components/Card";
 import { productData } from "../utilities/data";
 
-
+// console.log(productData);
 export default function LegalDocumentsPage() {
-  const legalDocuments = productData.filter(info => info.section ==="legalDocument");
+  const EmploymentDocuments = productData.filter(info => info.section ==="Employment Documents");
+  const BusinessDocuments = productData.filter(info => info.section ==="Business Documents");
+
 
   return (
     <div className="document-features" >
-    <PageTitle title="Legal Documents" />
-    <Cards data = {legalDocuments}/>
+    <div className="p-4" style={{background:"#15222B"}}>
+    <PageTitle 
+    CSS="text-light"
+    title="Legal Documents" />
+    <p className="text-light">
+    You can get affordable legal documents at your convenience
+    </p>
+    <ul className="text-light">
+      <li className="list-unstyled"><i class="bi bi-check-all text-danger mx-2"></i> Find the document you need from our list</li>
+      <li className="list-unstyled"><i class="bi bi-check-all text-danger mx-2"></i>Fill in the required relevant details</li>
+      <li className="list-unstyled "><i class="bi bi-check-all text-danger mx-2"></i>Make your order and payment</li>
+    </ul>
+      </div>
+
+    <div 
+    className="d-flex justify-content-center align-items-center flex-wrap">
+   
+    <Cards 
+    Heading ="Business Documents"
+     data = {BusinessDocuments}/>
+
+    <Cards 
+    Heading ="Employment Documents"
+    data = {EmploymentDocuments}/>
     
+    </div>
 </div>
   )
 }

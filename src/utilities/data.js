@@ -4,7 +4,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Co-founders Agreement visual",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Co-founders Agreement",
     description:"A co-founder Agreement allows you to set out the equity ownership, initial investments and responsibilities of each Co-founder.",
       features:[
@@ -23,7 +23,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Shareholders agreement",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Shareholders agreement ",
     description:"A shareholders Agreement will help you govern the relationship between your company shareholders. Although you and your partners are on good terms now, sometimes running a company will strain on the relationship, therefore it’s better to prepare from the onset and protect your interests and the company.",
       features:[
@@ -41,7 +41,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Business Plan",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Business Plan",
     description:"A document setting out a business's future objectives and strategies for achieving them.",
       features:[
@@ -59,7 +59,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Non-Disclosure Agreement (NDA)",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Non-Disclosure Agreement (NDA)",
     description:"A Non-disclosure agreement is a legal document that forbids a recipient of information from disclosing that information to any person or entity. Before sharing any information that is so important to your company it is crucial that you sign it.",
       features:[
@@ -76,7 +76,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Service Contract",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Service Contract",
     description:"A contract used between a service provider and a client (or customer) that outlines the exchange of services for compensation.",
       features:[
@@ -96,7 +96,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Board resolution",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Board resolution",
     description:"A Resolution is a formal means by which decisions are made by a meeting of company, Resolutions a drafted to legally express the company decision and can be registered with URSB.",
       features:[
@@ -111,7 +111,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Joint venture Agreements",
-    section:"CompanyRegistration",
+    section:"Business Documents",
     title: "Joint venture Agreements",
     description:"A joint venture is a contract between two or more parties who want to do business together for a period of time. Instead of forming a company, or partnership if your intention is to join with another party and have an equal stake in the venture. You can choose to enter a Joint venture Agreement.",
       features:[
@@ -131,7 +131,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Employment agreement",
-    section:"legalDocument",
+    section:"Employment Documents",
     title: "Employment agreement",
     description:"Employment Agreement is an essential document when hiring employees for your business. They are not only necessary for your legal protection; they can help set the tone and feel of your business. It also helps formalize the relationship between employee an employer which enhances professional and positive work.",
       features:[
@@ -151,7 +151,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Casual worker agreements (part time)",
-    section:"legalDocument",
+    section:"Employment Documents",
     title: "Casual worker agreements (part time) ",
     description:"This Casual Worker's Contract is for use where there is no mutuality of obligation and no continuing employment relationship between assignments.",
       features:[
@@ -167,7 +167,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Contractor agreement ",
-    section:"legalDocument",
+    section:"Employment Documents",
     title: "Contractor agreement ",
     description:"An independent Contractor Agreement is a written contract that spells out the terms of the working arrangement between a contractor and client; it includes a description of services, terms of service and payment details among others.",
       features:[
@@ -185,7 +185,7 @@ export const productData = [
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Termination deed/letter",
-    section:"legalDocument",
+    section:"Employment Documents",
     title: "Termination deed/letter",
     description:"A termination letter is one to be used when terminating an employee, this is to be signed by the employee finalizing all outstanding issues between the employer and employee. This deed will allow you with future issues smoothly, such as contractual claims or claims arising out of the termination of employment.",
       features:[

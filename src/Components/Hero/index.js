@@ -26,7 +26,7 @@ function Hero() {
               </a>
               <a href="/company-registration-page" 
               // target="_blank" rel="noopener"
-                className="btn btn-danger rounded-3 mx-2 fs-5 d-flex align-items-center"
+                className="btn btn-danger rounded-3 mx-1  fs-5 d-flex align-items-center"
               >
                 <span><strong>Company Registration</strong></span>
               </a>

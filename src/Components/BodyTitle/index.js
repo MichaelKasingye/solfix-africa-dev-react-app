@@ -9,11 +9,11 @@ export default function BodyTitle({title}) {
   );
 }
 
-export  function PageTitle({title}) {
+export  function PageTitle({title, CSS}) {
   return (
     <div className="section-title">
       {/* <h2>{title}</h2> */}
-      <p>{title}</p>
+      <p className={CSS}>{title}</p>
     </div>
   );
 }
