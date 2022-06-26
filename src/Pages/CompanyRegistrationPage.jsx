@@ -3,12 +3,15 @@ import BodyTitle, {PageTitle} from "../Components/BodyTitle";
 // import Cards from "../Components/Card";
 // import { productData } from "../utilities/data";
 import CollapseComponents from "../Components/CollapseComponents"
+import TitleHeader from "../Components/TitleHeader/Index";
 
 function FeaturesPage() {
   // const registerCoDocuments = productData.filter(info => info.section ==="CompanyRegistration");
 // console.log(registerCoDocuments);
   return(
     <div className="document-features" >
+      <TitleHeader title="Solfix-Company-Registration-page" />
+
     <div className="p-4" style={{background:"#15222B"}}>
     <PageTitle 
     CSS="text-light"

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
 import FeaturesProductDescription from "../Components/FeaturesProductDescription"
+import TitleHeader from "../Components/TitleHeader/Index";
 
 
 export default function FeaturesProductDecriptionPage() {
@@ -9,6 +10,8 @@ export default function FeaturesProductDecriptionPage() {
 
   return (
     <>
+      <TitleHeader title="Solfix-Features-Description-page" />
+
   <section className="product-single nav-arrow-b " style={{margin:"50px 0 20px 0"}} >
     <div className="container">
       <div className="row">

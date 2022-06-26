@@ -2,6 +2,7 @@ import React from "react";
 import {PageTitle} from "../Components/BodyTitle";
 import Cards from "../Components/Card";
 import { productData } from "../utilities/data";
+import TitleHeader from "../Components/TitleHeader/Index";
 
 // console.log(productData);
 export default function LegalDocumentsPage() {
@@ -11,6 +12,8 @@ export default function LegalDocumentsPage() {
 
   return (
     <div className="document-features" >
+      <TitleHeader title="Solfix-Legal-Documents-page" />
+
     <div className="p-4" style={{background:"#15222B"}}>
     <PageTitle 
     CSS="text-light"
