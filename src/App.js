@@ -27,6 +27,7 @@ function App() {
 
   useEffect(() => {
     Aos.init({ duration: 900 });
+    window.scrollTo(0, 0)
   }, []);
 
   return (

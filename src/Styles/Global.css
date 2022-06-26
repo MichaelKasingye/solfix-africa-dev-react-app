@@ -1079,7 +1079,7 @@ body {
     border: 1px solid #b5ccdb;
     padding: 15px;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1111,8 +1111,13 @@ body {
   border-left: 1px solid #48637E;
   background-color: #F0F4F8;
   }
+  .section-tabs .nav-link {
+    color: #15222B;
+  }
+
   .section-tabs .nav-link:hover {
     color: #BB2D3B;
+    border-radius: 7px;
   }
   .section-tabs .nav-link.active {
     background: #BB2D3B;

@@ -16,13 +16,13 @@ export const productData = [
         "Non-compete clause",
         "Dissolution, resignation and dissolution ",
       ],
-    price: 50000,
+    price: 100000,
   },
   {
     id: 2,
     image:
       "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Shareholders agreement",
+    alt: "Shareholders Agreement",
     section:"Business Documents",
     title: "Shareholders agreement ",
     description:"A shareholders Agreement will help you govern the relationship between your company shareholders. Although you and your partners are on good terms now, sometimes running a company will strain on the relationship, therefore it’s better to prepare from the onset and protect your interests and the company.",
@@ -34,7 +34,7 @@ export const productData = [
         "Dispute resolution",
         "Exit strategy",
       ],
-    price: 50000,
+    price: 100000,
   },
   {
     id: 3,
@@ -123,7 +123,7 @@ export const productData = [
         "Termination",
         "Dispute resolution",
       ],
-    price: 50000,
+    price: 100000,
   },
 
   {
@@ -144,7 +144,7 @@ export const productData = [
         "Termination ",
         "Dispute resolution",
       ],
-    price: 50000,
+    price: 150000,
   },
   {
     id: 9,
@@ -160,7 +160,7 @@ export const productData = [
         "Payments and benefits",
         "Termination",
       ],
-    price: 50000,
+    price: 100000,
   },
   {
     id: 10,
@@ -178,7 +178,7 @@ export const productData = [
         "Intellectual property",
         "Termination",
       ],
-    price: 50000,
+    price: 100000,
   },
   {
     id: 11,
@@ -194,6 +194,6 @@ export const productData = [
         "Restraint on future claims or disputes",
         "Severance and other entitlements ",
       ],
-    price: 50000,
+    price: 100000,
   },
 ];
