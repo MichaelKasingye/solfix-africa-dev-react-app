@@ -18,6 +18,7 @@ import SubmitFeedBack from "./Pages/SubmitFeedBack";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Pricing from "./Pages/Price";
 
 import Error from "./Pages/Error";
 import "./App.css";
@@ -41,6 +42,7 @@ function App() {
         <Route path="/fetures-decription-page/:id" element={<FeaturesProductDecriptionPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Pricing" element={<Pricing />} />
 
         <Route path="/submit-feedback" element={<SubmitFeedBack />} />
 

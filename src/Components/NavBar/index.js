@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -13,9 +13,9 @@ function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const [burger, setBurger] = useState(false);
-//   const [{ user }, dispatch] = useStateValue();
+  //   const [{ user }, dispatch] = useStateValue();
   // const user = "null";
-//   const history = useHistory();
+  //   const history = useHistory();
 
   const showSidebar = () => setSidebar(!sidebar);
 
@@ -26,8 +26,6 @@ function Navbar() {
       setBurger(false);
     }
   };
-
-
 
   window.addEventListener("resize", showBurger);
 
@@ -41,7 +39,6 @@ function Navbar() {
 
   window.addEventListener("scroll", changeBackground);
 
-
   // console.log(user);
 
   return (
@@ -54,7 +51,7 @@ function Navbar() {
             </Link>
           ) : (
             <Link to="/" className="logo">
-                <img
+              <img
                 src="assets/img/solfixlogos/solfixlogo3.jpeg"
                 // style={{height:"100%"}}
                 alt="The solfix logo"
@@ -62,22 +59,33 @@ function Navbar() {
             </Link>
           )}
 
-          {burger ? (  ""
+          {burger ? (
+            ""
           ) : (
             <div className="nav-menu">
               <Link to="/">Home</Link>
               <a href="/#featured-services"> Services</a>
-                <Link to="/Contact">Contact</Link>
-                <Link to="/about">About</Link>
-                <a className="buttons-filled " href="https://solfixafrica.com/signup">Sign Up</a>
-                <a className="buttons-outlined mx-1"  href="https://solfixafrica.com/signin"  >Sign In</a>
-              
+              <Link to="/Contact">Contact</Link>
+              <Link to="/Pricing">Pricing</Link>
+              <Link to="/about">About</Link>
+              <a
+                className="buttons-filled "
+                href="https://dashboard.solfixafrica.com/register"
+              >
+                Sign Up
+              </a>
+              <a
+                className="buttons-outlined mx-1"
+                href="https://dashboard.solfixafrica.com/login"
+              >
+                Sign In
+              </a>
             </div>
           )}
 
           {burger ? (
             <Link to="/" className="logo">
-                <img
+              <img
                 src="assets/img/solfixlogos/solfixlogo3.jpeg"
                 // style={{height:"100%"}}
                 alt="The solfix logo"
@@ -98,11 +106,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="sidebar-text">
-                  <a href="/#featured-services">
-                    {/* {item.icon} */}
-                    <span>Services</span>
-                  </a>
-                </li>
+              <a href="/#featured-services">
+                {/* {item.icon} */}
+                <span>Services</span>
+              </a>
+            </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
@@ -113,12 +121,22 @@ function Navbar() {
                 </li>
               );
             })}
-             <li className="sidebar-text">
-             <a className="buttons-filled " href="https://solfixafrica.com/signup">Sign Up</a>
-                </li>
-                <li className="sidebar-text">
-                <a className="buttons-outlined mx-1"  href="https://solfixafrica.com/signin"  >Sign In</a>
-                </li>
+            <li className="sidebar-text">
+              <a
+                className="buttons-filled "
+                href="https://dashboard.solfixafrica.com/register"
+              >
+                Sign Up
+              </a>
+            </li>
+            <li className="sidebar-text">
+              <a
+                className="buttons-outlined mx-1"
+                href="https://dashboard.solfixafrica.com/login"
+              >
+                Sign In
+              </a>
+            </li>
           </ul>
         </div>
       </IconContext.Provider>

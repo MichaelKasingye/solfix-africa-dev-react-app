@@ -25,14 +25,20 @@ export const SidebarData = [
     //     cName: className
     // },
     {
-        title: 'About',
-        path: '/about',
+        title: 'Contact',
+        path: '/contact',
         // icon: <IoIcons.IoMdPeople className="icon"/>,
         cName: className
     },
     {
-        title: 'Contact',
-        path: '/contact',
+        title: 'Pricing',
+        path: '/Pricing',
+        // icon: <IoIcons.IoMdPeople className="icon"/>,
+        cName: className
+    },
+    {
+        title: 'About',
+        path: '/about',
         // icon: <IoIcons.IoMdPeople className="icon"/>,
         cName: className
     }
