@@ -65,9 +65,9 @@ function Navbar() {
             <div className="nav-menu">
               <Link to="/">Home</Link>
               <a href="/#services"> Services</a>
-              <Link to="/Contact">Contact</Link>
               <Link to="/Pricing">Pricing</Link>
               <Link to="/about">About</Link>
+              <Link to="/Contact">Contact</Link>
               <a
                 className="buttons-filled "
                 href="https://dashboard.solfixafrica.com/register"
