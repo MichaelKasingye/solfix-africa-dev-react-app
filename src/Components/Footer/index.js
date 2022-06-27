@@ -52,13 +52,13 @@ function Footer() {
               </div>
               <div className="col-lg-4 col-md-4 footer-newsletter">
               <div className="social-links mt-3">
-                    <a href="https://www.facebook.com/solfixafrica" className="facebook" >
+                    <a href="https://www.facebook.com/solfixafrica" className="facebook" target="_blank" rel="noreferrer">
                       <AiFillFacebook />
                     </a>
-                    <a href="https://www.instagram.com/solfixafrica/?hl=en" className="instagram">
+                    <a href="https://www.instagram.com/solfixafrica/?hl=en" className="instagram" target="_blank" rel="noreferrer">
                       <AiFillInstagram />
                     </a>
-                    <a href="https://www.youtube.com/channel/UCZkl2avKyvO056qX3e7UVxA" className="you-tube">
+                    <a href="https://www.youtube.com/channel/UCZkl2avKyvO056qX3e7UVxA" className="you-tube" target="_blank" rel="noreferrer">
                       <AiFillYoutube />
                     </a>
                   </div>
