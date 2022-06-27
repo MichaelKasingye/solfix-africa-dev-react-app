@@ -54,7 +54,7 @@ export default function intellectualProperty() {
   ];
   return( 
   <div className="mt-5">
-      <TitleHeader title="Solfix-Intellectual-Property" />
+      <TitleHeader title="Solfix Africa-Intellectual-Property" />
 
       <ServiceHero
         title="SOLFIX the solution to protect you Intellectual Property"

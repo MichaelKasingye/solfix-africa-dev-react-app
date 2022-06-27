@@ -10,7 +10,7 @@ export default function Contact() {
   id="body-wrapper"
   className="animate__animated animate__fadeIn mt-5"
 >
-<TitleHeader title="Solfix-Contact"/>
+<TitleHeader title="Solfix Africa-Contact"/>
 
   <div id="main">
     {/* ======= Contact Section ======= */}

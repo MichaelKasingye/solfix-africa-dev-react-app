@@ -10,7 +10,7 @@ function Home() {
  
   return (
     <>
-       <TitleHeader title="Solfix-Home"/>
+       <TitleHeader title="Solfix Africa-Home"/>
     <Hero/>
     {/* <Features/> */}
     <AboutUs/>

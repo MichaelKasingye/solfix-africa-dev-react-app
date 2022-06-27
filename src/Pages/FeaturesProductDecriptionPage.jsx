@@ -10,7 +10,7 @@ export default function FeaturesProductDecriptionPage() {
 
   return (
     <>
-      <TitleHeader title="Solfix-Features-Description-page" />
+      <TitleHeader title="Solfix Africa-Features-Description-page" />
 
   <section className="product-single nav-arrow-b " style={{margin:"50px 0 20px 0"}} >
     <div className="container">

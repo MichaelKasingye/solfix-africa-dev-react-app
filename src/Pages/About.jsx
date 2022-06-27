@@ -4,7 +4,7 @@ import TitleHeader from "../Components/TitleHeader/Index";
 function About() {
   return (
     <>
-      <TitleHeader title="Solfix-About" />
+      <TitleHeader title="Solfix Africa-About" />
 
       {/* ======= Body wrapper ======= */}
       <section

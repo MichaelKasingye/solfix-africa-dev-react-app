@@ -58,7 +58,7 @@ export default function BusinessDevelopment() {
   ];
   return (
     <div className="mt-5">
-      <TitleHeader title="Solfix-Business-Development" />
+      <TitleHeader title="Solfix Africa-Business-Development" />
 
       <ServiceHero
         title="Business development made easy for your company"

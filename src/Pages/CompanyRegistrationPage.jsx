@@ -10,7 +10,7 @@ function FeaturesPage() {
 // console.log(registerCoDocuments);
   return(
     <div className="document-features" >
-      <TitleHeader title="Solfix-Company-Registration-page" />
+      <TitleHeader title="Solfix Africa-Company-Registration-page" />
 
     <div className="p-4" style={{background:"#15222B"}}>
     <PageTitle 

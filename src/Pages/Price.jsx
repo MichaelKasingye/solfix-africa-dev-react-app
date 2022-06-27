@@ -10,7 +10,7 @@ export default function Price() {
 
   return (
     <section id="pricing" className="pricing mt-5">
-<TitleHeader title="Solfix-Pricing"/>
+<TitleHeader title="Solfix Africa-Pricing"/>
 
   <div className="container">
   < BodyTitle title="Pricing"/>

@@ -12,7 +12,7 @@ export default function LegalDocumentsPage() {
 
   return (
     <div className="document-features" >
-      <TitleHeader title="Solfix-Legal-Documents-page" />
+      <TitleHeader title="Solfix Africa-Legal-Documents-page" />
 
     <div className="p-4" style={{background:"#15222B"}}>
     <PageTitle 
