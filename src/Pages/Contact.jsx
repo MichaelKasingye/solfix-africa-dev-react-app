@@ -1,11 +1,62 @@
-import React from 'react'
+import React, { useEffect, useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { useAlert } from 'react-alert'
 import TitleHeader from "../Components/TitleHeader/Index"
+import { useState } from "react";
+// import { ContactUs } from '../Components/contactUs/ContactUs';
+
 
 export default function Contact() {
+  const alert = useAlert()
+  const [message, setMessage] = useState(false);
+  const [loading, setLoading] = useState(false)
+  const form = useRef();
+  // const [name, setName] = useState("");  
+  // const [email, setEmail] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [messages, setMessages] = useState("");
+
+  const [inputs, setInputs] = useState({});
+  const handleChange = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setInputs(values => ({...values, [name]: value}))
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .sendForm(
+        "service_72twveu",
+        "template_t0cj8fp",
+        form.current,
+        "jId277KizmgSw-mno"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+    setLoading(false);
+
+          // setMessage("Your message has been sent. Thank you!");
+          setMessage(true)
+        },
+        (error) => {
+          console.log(error.text);
+    setLoading(false);
+
+        }
+      );
+  };
+
+useEffect(() => {
+  if (message ===true) {
+    alert.show("Your message has been sent. Thank you!")
+  }
+  
+}, [alert,message])
 
   return (
-
-
 <section
   id="body-wrapper"
   className="animate__animated animate__fadeIn mt-5"
@@ -49,8 +100,7 @@ export default function Contact() {
           </div>
           <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form
-              // action="mail/contact"
-              // method="post"
+              ref={form} onSubmit={sendEmail}
               className="php-email-form"
             >
               <div className="row">
@@ -58,10 +108,12 @@ export default function Contact() {
                   <label htmlFor="name">Your Name *</label>
                   <input
                     type="text"
-                    name="name"
+                    name="user_name" 
                     className="form-control"
                     id="name"
                     required
+                    value={inputs.user_name || ""} 
+                    onChange={handleChange}
                   />
                 </div>
                 <div className="form-group col-md-6 mt-3 mt-md-0">
@@ -69,9 +121,11 @@ export default function Contact() {
                   <input
                     type="email"
                     className="form-control"
-                    name="email"
+                    name="user_email"
                     id="email"
                     required
+                    value={inputs.user_email || ""} 
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -83,6 +137,8 @@ export default function Contact() {
                   name="subject"
                   id="subject"
                   required
+                  value={inputs.subject || ""} 
+                  onChange={handleChange}
                 />
               </div>
               <div className="form-group mt-3">
@@ -92,17 +148,20 @@ export default function Contact() {
                   name="message"
                   rows={10}
                   required
+                  value={inputs.message || ""} 
+                  onChange={handleChange}
                 />
               </div>
               <div className="my-3">
-                <div className="loading">Loading</div>
-                <div className="error-message" />
-                <div className="sent-message">
-                  Your message has been sent. Thank you!
+                <div className="">
+                  {/* { setTimeout(() => message?"ddddd":"" , 2000)} */}
                 </div>
               </div>
               <div className="text-center">
-                <button type="submit">Send Message</button>
+                { !inputs.user_email & !inputs.subject?
+                " "
+                :(<button type="submit">{!loading?"Send Message":"Sending..."}</button>)}
+                
               </div>
             </form>
           </div>
@@ -111,6 +170,8 @@ export default function Contact() {
     </section>
     {/* End Contact Section */}
   </div>
+
+{/* <ContactUs/> */}
 </section>
 
 
