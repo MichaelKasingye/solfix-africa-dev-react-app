@@ -23,6 +23,7 @@ import BusinessDevelopment from "./Pages/Service/BusinessDevelopment";
 import IntellectualProperty from "./Pages/Service/IntellectualProperty";
 import Tax from "./Pages/Service/Tax";
 import Trainings from "./Pages/Service/Trainings";
+import Cookie from "./Components/Cookie/cookiePopUp";
 
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import "./App.css";
@@ -70,6 +71,8 @@ function App() {
         <Route path="*" element={<Error />} />
       </Routes>
       <Modals/>
+      <Cookie/>
+      <Cookie/>
       <Footer/>
       </AlertProvider>
     </BrowserRouter>
