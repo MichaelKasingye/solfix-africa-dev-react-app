@@ -40,15 +40,22 @@ export default function Contact() {
 
           // setMessage("Your message has been sent. Thank you!");
           setMessage(true)
+          setInputs({
+            user_email:" ",
+            user_name:" ",
+            message:" ",
+            subject:" "
+          })
         },
         (error) => {
           console.log(error.text);
-    setLoading(false);
-
+          setLoading(false);
+          
+          
         }
       );
   };
-
+console.log(inputs);
 useEffect(() => {
   if (message ===true) {
     alert.show("Your message has been sent. Thank you!")
@@ -158,7 +165,7 @@ useEffect(() => {
                 </div>
               </div>
               <div className="text-center">
-                { !inputs.user_email & !inputs.subject?
+                { !inputs.user_email && !inputs.subject?
                 " "
                 :(<button type="submit">{!loading?"Send Message":"Sending..."}</button>)}
                 

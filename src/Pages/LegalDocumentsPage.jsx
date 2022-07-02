@@ -22,9 +22,9 @@ export default function LegalDocumentsPage() {
     You can get affordable legal documents at your convenience
     </p>
     <ul className="text-light">
-      <li className="list-unstyled"><i class="bi bi-check-all text-danger mx-2"></i> Find the document you need from our list</li>
-      <li className="list-unstyled"><i class="bi bi-check-all text-danger mx-2"></i>Fill in the required relevant details</li>
-      <li className="list-unstyled "><i class="bi bi-check-all text-danger mx-2"></i>Make your order and payment</li>
+      <li className="list-unstyled"><i className="bi bi-check-all text-danger mx-2"></i> Find the document you need from our list</li>
+      <li className="list-unstyled"><i className="bi bi-check-all text-danger mx-2"></i>Fill in the required relevant details</li>
+      <li className="list-unstyled "><i className="bi bi-check-all text-danger mx-2"></i>Make your order and payment</li>
     </ul>
       </div>
 

@@ -57,7 +57,7 @@ function About() {
                       <img
                         src="assets/img/aboutus2.png"
                         alt="an svg"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
                   </div>
