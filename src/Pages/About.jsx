@@ -40,15 +40,15 @@ function About() {
                       <h5 style={{ color: "#3F5974" }}>CORE VALUES</h5>
                       <ul style={{ listStyle: "none" }}>
                         <li>
-                          <i className="bi bi-check-all text-danger fs-5 mx-1" />
+                          <i className="bi bi-dot text-danger fs-5 mx-1" />
                           Integrity
                         </li>
                         <li>
-                          <i className="bi bi-check-all text-danger fs-5 mx-1" />
+                          <i className="bi bi-dot text-danger fs-5 mx-1" />
                           Transparency
                         </li>
                         <li>
-                          <i className="bi bi-check-all text-danger fs-5 mx-1" />
+                          <i className="bi bi-dot text-danger fs-5 mx-1" />
                           Prompt services
                         </li>
                       </ul>

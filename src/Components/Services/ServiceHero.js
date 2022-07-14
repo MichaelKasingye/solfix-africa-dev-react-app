@@ -14,7 +14,7 @@ export default function ServiceHero({title,description,image,list}) {
             {list.map((info, index) => (
 
               <li key={index}>
-                <i className="bi bi-check-all text-danger fs-5 mx-1" />
+                <i className="bi bi-dot text-danger fs-5 mx-1" />
                 {info}
               </li>
             ))}

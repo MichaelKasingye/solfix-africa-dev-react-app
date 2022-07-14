@@ -23,6 +23,7 @@ import BusinessDevelopment from "./Pages/Service/BusinessDevelopment";
 import IntellectualProperty from "./Pages/Service/IntellectualProperty";
 import Tax from "./Pages/Service/Tax";
 import Trainings from "./Pages/Service/Trainings";
+import Lawyer from "./Pages/Service/Lawyer";
 import Cookie from "./Components/Cookie/cookiePopUp";
 
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
@@ -66,6 +67,7 @@ function App() {
         <Route path="/intellectual-property" element={<IntellectualProperty />} />
         <Route path="/trainings" element={<Trainings />} />
         <Route path="/tax" element={<Tax />} />
+        <Route path="/lawyer" element={<Lawyer />} />
 
 
         <Route path="*" element={<Error />} />

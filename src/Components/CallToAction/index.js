@@ -19,8 +19,8 @@ function index() {
                   Our experts will guide you to what your business needs, to help
                   set you up for success.
                 </p>
-                <a href="/#featured-services" className="btn btn-danger rounded-3 mx-1" >
-                  <span>Get Documents</span>
+                <a href="/#services" className="btn btn-danger rounded-3 mx-1" >
+                  <span>Our Services</span>
                 </a>
               </div>
             </div>
