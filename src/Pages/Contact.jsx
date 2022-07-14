@@ -172,7 +172,6 @@ export default function Contact() {
             </div>
           </div>
         </section>
-        {/* End Contact Section */}
       </div>
 
       {/* <ContactUs/> */}
